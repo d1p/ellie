@@ -1,4 +1,4 @@
-// Put Loading indicator in the right bottom of the screen 
+// Put Loading indicator in the right bottom of the screen
 .o_loading {
     background-color: darken(@brand-primary, 13.5%) !important;
     top: inherit;
@@ -39,9 +39,11 @@ body a {
 }
 
 .ui-autocomplete .ui-menu-item.ui-state-focus  {
-    background-color: @brand-primary;	
+    background-color: @brand-primary;
 }
-
+.o_control_panel{
+  background-color:#3dab9f!important;
+}
 .o_control_panel .breadcrumb > li > a {
     color: @brand-primary;
 }
@@ -105,7 +107,7 @@ body a {
             font-size: 13px !important;
          //   padding: 14px 10px !important;
             margin-top: 0 !important;
-            line-height: 21px !important;
+            //line-height: 21px !important;
         }
     }
     .dropdown-menu {
@@ -150,18 +152,18 @@ body a {
 
 // Darker background
 .o_form_view .o_form_sheet_bg {
-    background-color: #8f8f8f;
+    background-color: #f1f1f1;
     background-image: none;
     border: 0 none;
 }
 
 
 .o_web_client > .o_main .o_main_content {
-	background-color: #8f8f8f;
+	background-color: #f1f1f1;
 }
 
 .o_kanban_view {
-	background-color: #8f8f8f;
+	background-color: #f1f1f1;
 }
 
 .o_event_left {
@@ -182,15 +184,15 @@ body a {
 .o_list_view.table thead, .o_list_view.table tfoot, .o_list_view.table td,.o_list_view.table th {
     border: none;
 }
- 
+
 .o_list_view.table thead {
     background-color: #e2e2e0;
 }
- 
+
 .o_list_view.table thead > tr > th.o_column_sortable:hover {
     background-color: #D6D6D3;
 }
- 
+
 .o_list_view.table tbody tr.o_group_header {
     background-color: #dfdfdf;
     background-image: none;
@@ -214,7 +216,7 @@ div.o_checkbox {
     position: relative;
     vertical-align: sub;
 }
- 
+
 div.o_checkbox > input {
     width: 15px;
     height: 15px;
@@ -227,26 +229,26 @@ div.o_checkbox > input {
     right: auto;
     cursor: pointer;
 }
- 
+
 div.o_checkbox > input + span {
     display: block;
 	width: 15px;
     height: 15px;
-    border: 1px solid #8f8f8f;
+    border: 1px solid #f5f5f5;
     background-color: white;
 }
- 
+
 div.o_checkbox > input:checked + span {
     background-repeat: no-repeat;
     background-image: url(/ellie/static/src/img/checked.svg);
     background-position: center center;
 }
- 
+
 div.o_checkbox > input:disabled + span {
     opacity: 0.7;
     border: 1px solid #e2e2e0;
 }
- 
+
  div.o_checkbox > input:focus + span {
     outline: 1px solid @brand-primary;
 }
@@ -373,12 +375,12 @@ textarea, select, .o_form_view.o_form_editable .o_form_field_many2manytags,
         width: 100% !important;
 	}
 
-	// Fix user preference height	
+	// Fix user preference height
 	.modal .modal-content .modal-body .oe-view-manager-content {
 		position: static;
 		height: 400px;
 	}
-	
+
 	// Fix salesboard width
 	.oe-view-manager-view-sales_team_dashboard {
 		width: 100%;
