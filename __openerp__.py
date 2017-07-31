@@ -3,19 +3,20 @@
 # License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 
 {
-    "name": "Ellie: Backend theme",
-    "summary": "Odoo 10.0 Private theme",
-    "version": "1.0",
+    "name": "Material/United Backend Theme",
+    "summary": "Odoo 10.0 community backend theme",
+    "version": "10.0.1.0.18",
     "category": "Themes/Backend",
-    "website": "https://nihan.me",
+    "website": "http://www.openworx.nl",
 	"description": """
-		Backend theme for odoo
+		Backend theme for Odoo 10.0 community edition.
+		The app dashboard is based on the module web_responsive from LasLabs Inc and the theme on Bootstrap United.
     """,
 	'images':[
         'images/screen.png'
 	],
-    "author": "d1p",
-    "license": "Private",
+    "author": "Openworx",
+    "license": "LGPL-3",
     "installable": True,
     "depends": [
         'web',
